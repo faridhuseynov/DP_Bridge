@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="PC Components\GPU.cs" />
     <Compile Include="PC Components\Hard Drive.cs" />
+    <Compile Include="PC Components\PC_Component.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PC Components\CPU.cs" />

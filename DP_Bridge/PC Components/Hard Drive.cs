@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace DP_Bridge.PC_Components
 {
-    public class Hard_Drive
+    public class Hard_Drive : PC_Component
     {
         public string Size { get; set; }
+        public string Name { get;set; }
+
         public override string ToString()
         {
-            return $"Hard drive size: {Size}";
+            return $"Hard drive parameters:\n" +
+                $"Name: {Name}" +
+                $"\nSize: {Size}";
         }
     }
 }
