@@ -8,6 +8,10 @@ namespace DP_Bridge
 {
     class Program
     {
+        class PC
+        {
+
+        }
         static void Main(string[] args)
         {
         }
