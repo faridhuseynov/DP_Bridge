@@ -10,5 +10,11 @@ namespace DP_Bridge.PC_Components
     {
         public string Model { get; set; }
         public string RamMemory { get; set; }
+        public override string ToString()
+        {
+            return $"GPU Parameters:\n" +
+                $"Model: {Model}" +
+                $"\nRam Memory: {RamMemory}"; 
+        }
     }
 }

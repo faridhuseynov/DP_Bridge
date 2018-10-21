@@ -9,5 +9,9 @@ namespace DP_Bridge.PC_Components
     public class Hard_Drive
     {
         public string Size { get; set; }
+        public override string ToString()
+        {
+            return $"Hard drive size: {Size}";
+        }
     }
 }
